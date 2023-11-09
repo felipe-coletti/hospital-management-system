@@ -69,6 +69,7 @@ const ViewReceptionists = () => {
                                 <tr className={styles.tableRow}>
                                     <th className={styles.tableItem}><h2 className={styles.secondaryTitle}>#</h2></th>
                                     <th className={styles.tableItem}><h2 className={styles.secondaryTitle}>Nome</h2></th>
+                                    <th className={styles.tableItem}><h2 className={styles.secondaryTitle}>CPF</h2></th>
                                     <th className={styles.tableItem}><h2 className={styles.secondaryTitle}>Ações</h2></th>
                                 </tr>
                             </thead>
@@ -84,6 +85,9 @@ const ViewReceptionists = () => {
                                                     {receptionist.nome}
                                                 </Link>
                                             </p>
+                                        </td>
+                                        <td className={styles.tableItem}>
+                                            <p className={styles.paragraph}>{receptionist.cpf}</p>
                                         </td>
                                         <td className={styles.tableItem}>
                                             <div className={styles.actionsArea}>
