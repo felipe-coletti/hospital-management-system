@@ -1,0 +1,98 @@
+.container {
+    align-items: center;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    min-height: calc(100vh - 3.5rem);
+    padding: 2.5rem;
+}
+
+.contentArea {
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    max-width: 24rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.primaryTitle {
+    font-size: 1.5rem;
+}
+
+.top, .primaryTitle {
+    margin-bottom: 1.5rem;
+}
+
+.primaryTitle {
+    text-align: center;
+}
+
+.link {
+    color: #265DA4;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link, .primaryButton {
+    font-size: 0.875rem;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.primaryTitle, label {
+    color: #000;
+}
+
+.input {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.primaryButton {
+    background-color: #265DA4;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.input, .primaryButton {
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+}
+
+.inputField, .form .link {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        background-color: #fff;
+        justify-content: unset;
+    }
+
+    .contentArea {
+        background-color: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+}

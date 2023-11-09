@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.primaryTitle {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.primaryTitle, .errorMessage {
+    margin-bottom: 1.5rem;
+}
+
+.errorMessage {
+    color: #f00;
+    text-align: center;
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.buttonsArea {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.primaryButton {
+    background-color: #265DA4;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+    width: 100%;
+}
+
+.secondaryButton {
+    background-color: #f5f5f5;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+    width: 100%;
+}
+
+.paragraph, .primaryButton, .secondaryButton {
+    font-size: 0.875rem;
+}

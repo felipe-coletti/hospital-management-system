@@ -1,0 +1,91 @@
+.container {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 3.5rem);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.contentArea {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.primaryTitle {
+    font-size: 2rem;
+}
+
+.secondaryTitle {
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    font-size: 0.875rem;
+}
+
+.primaryButton {
+    background-color: #265DA4;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 16rem));
+    grid-gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 16rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.highlightText {
+    color: #265DA4;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.benefitsList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: left;
+}
+
+.benefit {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.benefitIcon {
+    color: #265DA4;
+    font-size: 1.25rem;
+}
