@@ -33,6 +33,7 @@ const ViewDoctor = () => {
                     <div className={styles.dataArea}>
                         <p>Nome: {doctor.nome}</p>
                         <p>CPF: {doctor.cpf}</p>
+                        <p>CRM: {doctor.crm}</p>
                         <p>E-mail: {doctor.email}</p>
                         <p>Senha: {doctor.senha}</p>
                     </div>
