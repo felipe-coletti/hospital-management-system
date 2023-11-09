@@ -61,19 +61,18 @@
 }
 
 @media screen and (max-width: 480px) {
-    .shadow {
+    .backdrop {
         display: none;
     }
 
     .container {
-        background-color: #fff;
         justify-content: unset;
+        padding: 0;
     }
 
     .contentArea {
-        background-color: transparent;
         border-radius: 0;
         box-shadow: none;
-        padding: 0;
+        max-width: unset;
     }
 }
