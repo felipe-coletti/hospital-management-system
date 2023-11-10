@@ -34,7 +34,7 @@ const ViewPatient = () => {
                         <p>Nome: {patient.nome}</p>
                         <p>CPF: {patient.cpf}</p>
                         <p>Data de nascimento: {patient.dataDeNascimento}</p>
-                        <p>Numero de telefone: {patient.numeroDeTelefone}</p>
+                        <p>Número de telefone: {patient.numeroDeTelefone}</p>
                         <p>Endereço: {patient.endereco}</p>
                         <p>Nome do responsavel: {patient.nomeDoResponsavel}</p>
                         <p>CPF do responsavel: {patient.cpfDoResponsavel}</p>
