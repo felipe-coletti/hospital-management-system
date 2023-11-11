@@ -16,7 +16,6 @@ const ViewPatient = () => {
                     throw new Error()
                 }
                 const data = await response.json()
-                console.log(JSON.stringify(data))
                 setPatient(data)
             } catch (error) {
                 setErrorMessage("Erro ao exibir os dados do paciente.")

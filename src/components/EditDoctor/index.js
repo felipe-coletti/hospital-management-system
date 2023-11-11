@@ -10,7 +10,6 @@ const EditDoctor = ({ id, onClose }) => {
                     throw new Error()
                 }
                 const data = await response.json()
-                console.log(JSON.stringify(data))
                 setNome(data.nome || "")
                 setCPF(data.cpf || "")
                 setCRM(data.crm || "")

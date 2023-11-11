@@ -21,7 +21,6 @@ const ViewReceptionists = () => {
                     throw new Error()
                 }
                 const data = await response.json()
-                console.log(JSON.stringify(data))
                 setReceptionists(data)
             } catch (error) {
                 setErrorMessage("Erro ao exibir os dados dos recepcionistas.")
