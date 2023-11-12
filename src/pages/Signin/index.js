@@ -6,16 +6,16 @@ const Signin = () => {
         <div className={styles.container}>
             <div className={styles.contentArea}>
                 <h1 className={styles.primaryTitle}>Entrar</h1>
-                <form className={styles.form}>
+                <form>
                     <div className={styles.inputField}>
-                        <label htmlFor="email-input">E-mail</label>
+                        <label className={styles.label} htmlFor="email-input">E-mail</label>
                         <input className={styles.input} type="text" required/>
                     </div>
                     <div className={styles.inputField}>
-                        <label htmlFor="password-input">Senha</label>
+                        <label className={styles.label} htmlFor="password-input">Senha</label>
                         <input className={styles.input} type="password" required/>
                     </div>
-                    <div className={styles.link}>
+                    <div className={styles.linksArea}>
                         <a className={styles.link} href="">Esqueceu a senha?</a>
                     </div>
                     <button className={styles.primaryButton} type="submit">Entrar</button>
