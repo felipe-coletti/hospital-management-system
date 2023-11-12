@@ -49,7 +49,7 @@ const ViewPatients = () => {
                             <button title="Pesquisar" className={styles.searchIcon}>
                                 <Icon icon="iconamoon:search-bold" />
                             </button>
-                            <input className={styles.searchInput} placeholder="Pesquisar" />
+                            <input id="search-input" className={styles.searchInput} placeholder="Pesquisar" />
                         </div>
                         <button className={styles.primaryButton}>
                             <Icon className={styles.icon} icon="ion:filter" />
