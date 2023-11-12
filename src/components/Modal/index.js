@@ -17,8 +17,6 @@ const Modal = ({ onClose, content }) => {
         }
     }, [])
 
-    
-
     return (
         <div className={styles.modalContainer}>
             <div className={styles.container}>

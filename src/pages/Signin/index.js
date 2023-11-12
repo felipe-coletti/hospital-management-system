@@ -6,7 +6,7 @@ const Signin = () => {
         <div className={styles.container}>
             <div className={styles.contentArea}>
                 <h1 className={styles.primaryTitle}>Entrar</h1>
-                <form>
+                <form className={styles.form}>
                     <div className={styles.inputField}>
                         <label className={styles.label} htmlFor="email-input">E-mail</label>
                         <input className={styles.input} type="text" required/>
