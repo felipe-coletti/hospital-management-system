@@ -27,7 +27,7 @@ const ViewPatients = () => {
             }
         }
         consult()
-    })
+    }, [])
 
     const openModal = (id, action) => {
         setSelectedItem(id)

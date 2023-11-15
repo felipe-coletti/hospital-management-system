@@ -27,7 +27,7 @@ const ViewReceptionists = () => {
             }
         }
         consult()
-    })
+    }, [])
 
     const openModal = (id, action) => {
         setSelectedItem(id)
