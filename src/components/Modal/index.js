@@ -2,7 +2,7 @@ import { React, useEffect } from "react";
 import styles from "./styles.module.css";
 import { Icon } from '@iconify/react';
 
-const Modal = ({ onClose, content }) => {
+const Modal = ({ onClose, children }) => {
     useEffect(() => {
         const handleEsc = (event) => {
             if (event.key === 'Escape') {
@@ -27,7 +27,7 @@ const Modal = ({ onClose, content }) => {
                             <Icon icon="tabler:x" />
                         </button>
                     </div>
-                    {content}
+                    {children}
                 </div>
             </div>
         </div>
