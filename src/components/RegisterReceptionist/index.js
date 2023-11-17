@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import styles from "./styles.module.css";
 
-const RegisterReceptionist = ({onClose}) => {
+const RegisterReceptionist = () => {
     const [nome, setNome] = useState("")
     const [cpf, setCPF] = useState("")
     const [email, setEmail] = useState("")

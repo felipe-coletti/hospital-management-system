@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import styles from "./styles.module.css";
 
-const RegisterDoctor = ({onClose}) => {
+const RegisterDoctor = () => {
     const [nome, setNome] = useState("")
     const [cpf, setCPF] = useState("")
     const [crm, setCRM] = useState("")

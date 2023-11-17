@@ -114,19 +114,19 @@ const ViewDoctors = () => {
                 )}
                 {selectedAction === 'register' && (
                     <Modal onClose={closeModal}>
-                        <RegisterPatient onClose={closeModal} />
+                        <RegisterDoctor />
                     </Modal>
                 )}
                 {selectedItem !== null && (
                     <div>
                         {selectedAction === 'edit' && (
                             <Modal onClose={closeModal}>
-                                <EditPatient id={selectedItem} onClose={closeModal} />
+                                <EditDoctor id={selectedItem} />
                             </Modal>
                         )}
                         {selectedAction === 'delete' && (
                             <Modal onClose={closeModal}>
-                                <DeletePatient id={selectedItem} onClose={closeModal} />
+                                <DeleteDoctor id={selectedItem} onClose={closeModal} />
                             </Modal>
                         )}
                     </div>

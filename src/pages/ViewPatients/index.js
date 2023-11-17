@@ -114,14 +114,14 @@ const ViewPatients = () => {
                 )}
                 {selectedAction === 'register' && (
                     <Modal onClose={closeModal}>
-                        <RegisterPatient onClose={closeModal} />
+                        <RegisterPatient />
                     </Modal>
                 )}
                 {selectedItem !== null && (
                     <div>
                         {selectedAction === 'edit' && (
                             <Modal onClose={closeModal}>
-                                <EditPatient id={selectedItem} onClose={closeModal} />
+                                <EditPatient id={selectedItem} />
                             </Modal>
                         )}
                         {selectedAction === 'delete' && (

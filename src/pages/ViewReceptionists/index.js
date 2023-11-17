@@ -114,19 +114,19 @@ const ViewReceptionists = () => {
                 )}
                 {selectedAction === 'register' && (
                     <Modal onClose={closeModal}>
-                        <RegisterPatient onClose={closeModal} />
+                        <RegisterReceptionist />
                     </Modal>
                 )}
                 {selectedItem !== null && (
                     <div>
                         {selectedAction === 'edit' && (
                             <Modal onClose={closeModal}>
-                                <EditPatient id={selectedItem} onClose={closeModal} />
+                                <EditReceptionist id={selectedItem} />
                             </Modal>
                         )}
                         {selectedAction === 'delete' && (
                             <Modal onClose={closeModal}>
-                                <DeletePatient id={selectedItem} onClose={closeModal} />
+                                <DeleteReceptionist id={selectedItem} onClose={closeModal} />
                             </Modal>
                         )}
                     </div>
