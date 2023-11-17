@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import styles from "./styles.module.css";
 
-const EditPatient = ({ id }) => {
+const EditPatient = ({ id, onClose }) => {
     useEffect(() => {
         const consult = async () => {
             try {

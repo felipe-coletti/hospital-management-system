@@ -114,14 +114,14 @@ const ViewReceptionists = () => {
                 )}
                 {selectedAction === 'register' && (
                     <Modal onClose={closeModal}>
-                        <RegisterReceptionist />
+                        <RegisterReceptionist onClose={closeModal} />
                     </Modal>
                 )}
                 {selectedItem !== null && (
                     <div>
                         {selectedAction === 'edit' && (
                             <Modal onClose={closeModal}>
-                                <EditReceptionist id={selectedItem} />
+                                <EditReceptionist id={selectedItem} onClose={closeModal} />
                             </Modal>
                         )}
                         {selectedAction === 'delete' && (
