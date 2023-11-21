@@ -2,7 +2,7 @@ import { React, useState, useEffect } from "react";
 import styles from "./styles.module.css";
 
 const EditPatient = ({ id, onClose }) => {
-    useEffect(() => {
+    useEffect((id) => {
         const consult = async () => {
             try {
                 const response = await fetch("http://localhost:8080/api/v1/pacientes/" + id)
