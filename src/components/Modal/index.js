@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import { Icon } from '@iconify/react';
 
 const Modal = ({ onClose, children }) => {
-    useEffect(() => {
+    useEffect((onClose) => {
         const handleEsc = (event) => {
             if (event.key === 'Escape') {
                 onClose()
