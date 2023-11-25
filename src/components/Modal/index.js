@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Modal = ({ onClose, children }) => {
     useEffect(() => {
-        const handleEsc = async (event) => {
+        const handleEsc = (event) => {
             if (event.key === 'Escape') {
                 onClose()
             }
